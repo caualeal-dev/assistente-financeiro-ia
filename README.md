@@ -1,8 +1,6 @@
 Assistente de Investimentos com Interface Gráfica e IA
-Descrição
-Este projeto é um assistente de investimentos pessoal desenvolvido em Python, com uma interface gráfica criada com a biblioteca CustomTkinter. A aplicação permite ao usuário gerenciar sua carteira de ativos financeiros de forma local, além de oferecer análises sobre o mercado financeiro utilizando a IA Generativa do Google Gemini.
 
-adicione aqui um screenshot da sua aplicação em funcionamento.
+Este projeto é um assistente de investimentos pessoal desenvolvido em Python, com uma interface gráfica criada com a biblioteca CustomTkinter. A aplicação permite ao usuário gerenciar sua carteira de ativos financeiros de forma local, além de oferecer análises sobre o mercado financeiro utilizando a IA Generativa do Google Gemini.
 
 Funcionalidades
 Interface Gráfica: Gerencie sua carteira através de uma interface de usuário clara e funcional.
@@ -39,15 +37,11 @@ Uma chave de API do Google Gemini, que pode ser obtida no Google AI Studio.
 Passo a Passo
 Clone o repositório:
 
-Bash
-
 git clone https://github.com/caualeal-dev/assistente-financeiro-ia.git
 cd assistente-financeiro-ia
 (Nota: Crie um repositório com o nome assistente-financeiro-ia em seu perfil para que este link funcione)
 
 Crie e ative um ambiente virtual:
-
-Bash
 
 # Para Windows
 python -m venv venv
@@ -56,17 +50,15 @@ python -m venv venv
 # Para macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
-Crie o arquivo de dependências requirements.txt com o seguinte conteúdo:
 
-Plaintext
+Crie o arquivo de dependências requirements.txt com o seguinte conteúdo:
 
 customtkinter
 google-generativeai
 feedparser
 python-dotenv
-Instale as dependências:
 
-Bash
+Instale as dependências:
 
 pip install -r requirements.txt
 Configure sua chave de API:
@@ -78,7 +70,5 @@ Dentro dele, adicione sua chave da API do Gemini da seguinte forma:
 GEMINI_API_KEY="SUA_CHAVE_DE_API_REAL_VAI_AQUI"
 Executando a Aplicação
 Com a configuração concluída, execute o arquivo da interface gráfica para iniciar o assistente:
-
-Bash
 
 python gui_agente.py
